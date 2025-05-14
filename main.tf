@@ -16,6 +16,6 @@ resource "aws_db_instance" "default" {
   skip_final_snapshot = true
   backup_retention_period = 0
   multi_az = false
-  deletion_protection = true
+  deletion_protection = false
   storage_type = "gp2"
 }
